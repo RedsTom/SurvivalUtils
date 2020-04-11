@@ -1,0 +1,18 @@
+
+#INFOS
+
+messages:
+     - "§6N'hésitez pas à voter pour mettre le jour ou la nuit §c(§b/timevote§c) !"
+     - "§6Le discord du serveur est toujours disponible : §ahttps://discord.gg/Jtkw6vb §6!"
+     - "§aLe warp Pvp Arena et le warp anims ne vous font pas perdre votre stuff, dès que vous reviendrez dans le monde normal, vous retrouverez votre stuff comme vous l'avez laissé"
+delay: 900
+
+#INSULTES
+
+insultes:
+     fuck:
+          name: "fuck"
+          warn: false
+replacement: "****"
+
+reason: ""

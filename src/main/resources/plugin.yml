@@ -1,0 +1,66 @@
+name: SurvieKitPvpUtils
+version: 1.0
+main: fr.novalya.survival_utils.Main
+authors: [RedsTom]
+api-version: 1.13
+depend:
+  - Vault
+commands:
+  asconsole:
+    permission: sutils.asc
+    aliases:
+      - asc
+      - as@
+      -
+  sondage:
+    description: Faire un sondage
+    permission-message: §c§lVous ne pouvez pas envoyer de sondage, achetez le §6Gold §c§lpour avoir accès à cette fonction
+    permission: sutils.send
+  pvp:
+    description: Téléport au warp PVP
+  tableflip:
+  cheque:
+    permission-message: §cVous n'avez pas la permission de créer un chèque
+    permission: sutils.cheque
+    description: Créer un chèque de la valeur indiquée
+
+  freeze:
+    permission: sutils.freeze
+    permission-message: §c§lVous ne pouvez pas freeze !
+    description: Freeze someone
+  unfreeze:
+    permission: sutils.freeze
+    permission-message: §c§lVous ne pouvez pas freeze !
+    description: Unfreeze someone
+  sut:
+    permission: sutils.sut
+    permission-message: §c§lVous ne pouvez pas accéder à cette commande
+    description: Principal command of §9SurvieKitPvpUtils
+  uuid:
+    permission: sutils.view_uuid
+    permission-message: §c§lVous ne pouvez pas voir les UUID
+  buywarp:
+    aliases:
+      - bw
+  adminhelp:
+    aliases:
+      - ah
+      - adminh
+      - admin?
+      - a?
+      - ahelp
+
+  discord:
+
+  xpbottle:
+    permission: sutils.xpbottle
+
+  rename:
+    permission: sutils.rename
+
+  maintenance:
+    permission: sutils.mtn
+    aliases:
+      - wl
+      - whitelist
+      - mtn
